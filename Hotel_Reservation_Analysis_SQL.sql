@@ -1,3 +1,52 @@
+# Hotel Reservation Analysis with SQL
+
+* Project Overview:
+
+	This data analysis project aims to gain insights into guest preferences, booking trends, and other key factors that impact the hotel's operations.
+        In this project I will use SQL to query and analyze the data, as well as answer specific questions about the dataset.
+
+* Data Source:
+
+	Hotel Reservation Dataset: The primary dataset used for the analysis is the 'Hotel Reservation.csv' file, containing detail information about 
+        reservations made by the customers.
+
+* Tools: 
+
+	Database management system: Postgre SQL
+	Management Tool: PgAdmin
+
+* Data cleaning:
+
+	In the initial data preparation phase, I performed the following tasks:
+	1. Importing data from csv file to management tool PgAdmin
+	2. Handling null values.
+	3. Data cleaning and formatting.
+
+* Results/Findings:
+
+	The analysis results are summarise as follows:
+	1. In 2017 September and October were the months when maximum reservations were made and in 2018 March, April, May, June, August, 
+	   and October were the months when the maximum reservations were made by the customers. 
+	2. Out of 700 reservations 493 were confirmed and based on this we can say that approximately 70% were confirmed
+           reservations and 30% of customers canceled the reservations.
+	3. Approximately 73% of the customers booked hotel rooms online.
+	4. Room_type_1 was the most popular room type among the customers. 
+	5. Meal_plan_1 was the most popular meal among the customers.
+	6. Room_type_1 was the most popular room among the customers who had children with them.
+
+* Recommendations: 
+	Based on the analysis, I recommend the following actions:
+
+	1. Invest in marketing (specially online) and increse the online presense with clear room descriptions and images to maximize revenue.
+	2. During peak seasons adjust the room rate to maximize revenue.
+	3. Develope targeted marketing compaigns for different customer segments, utilise personal offers and loyalty programs.
+	4. If possible try to increase or modify the rooms to as same as Room_type_1 as this was the most popular room among the customers and 
+	   customers who had children with them.
+
+	
+* Questions and SQL queries are as follows:
+
+
 ------------------------ Create Table -----------------------------
 
 CREATE TABLE IF NOT EXISTS HOTEL_RESERVATION(
