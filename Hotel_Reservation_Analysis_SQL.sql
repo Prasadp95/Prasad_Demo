@@ -1,4 +1,4 @@
-# Hotel Reservation Analysis with SQL
+/*# Hotel Reservation Analysis with SQL
 
 * Project Overview:
 
@@ -44,7 +44,7 @@
 	   customers who had children with them.
 
 	
-* Questions and SQL queries are as follows:
+* Questions and SQL queries are as follows: */
 
 
 ------------------------ Create Table -----------------------------
