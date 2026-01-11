@@ -1,3 +1,3 @@
-# Hotel Booking Analysis - SQL
+# Hotel Reservation Analysis - SQL
 This is my project Repository<br>
 Author - Prasad Pawar.
